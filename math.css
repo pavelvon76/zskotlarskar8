@@ -1,0 +1,167 @@
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.task {
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.task_container {
+    display: none;
+}
+
+.task_header
+{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #03a9f4;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.task_header_desc
+{
+    flex: 10;
+    background: green;
+    border-top-left-radius: 10px;
+    text-align: left;  
+}
+
+.task_level
+{
+    flex: 2;
+    background: rgb(118, 163, 35);
+    border-radius: 50px;
+}
+
+.task_points
+{
+    flex: 2;
+    background: rgb(19, 212, 19);
+    border-radius: 50px;
+}
+
+
+.task_help_line {
+    display: none;
+}
+
+.task_description
+{
+    flex: 1;
+    background: #d22b1f;
+}
+
+.task_help
+{
+    flex: 1;
+    background: orange;
+}
+
+.task_help_line img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.task_answer
+{
+    flex: 1;
+    background: gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.task_solution
+{
+    flex: 1;
+    background: green;
+}
+
+.task_check_btn
+{
+    background: lightgrey;
+    border-radius: 10px;
+}
+main {
+    background: #000000;
+    padding: 10px;
+}
+
+.hlavicka {
+    background: #03a9f4;
+}
+
+.rocniky {
+    background: #d22b1f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.rocnikitem {
+    border: 1px solid #000000;
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+.obsah {
+    background: #129a22;
+
+    /* responsive section */
+    flex: 1;
+}
+
+.temata {
+    border: 1px solid #000000;
+    background: #673ab7;
+
+    /* responsive section */
+    flex: 0 1 250px;
+}
+
+.paticka {
+    border: 1px solid #000000;
+    background: #bfcf29;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.patickaitem {
+    border: 1px solid blue;
+    color: #129a22;  
+    text-align: center;
+}
+
+/* responsive section */
+.flex_blok {
+    margin: auto;
+    max-width: 1200px;
+}
+
+@media only screen and (min-width: 640px){
+    .flex_blok {
+        display: flex;
+    }    
+    .rocnikitem {
+        display: flex;
+        color:green;
+    }
+    .rocniky,.paticka {
+        flex-direction: row;
+    }
+}

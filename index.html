@@ -1,0 +1,37 @@
+<html lang="cs-CZ">
+    <head>
+        <meta charset="UTF-8">
+        <title>Moje stránka</title>
+        <link rel=stylesheet href="math.css"> <!-- css slouží k formátování-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- základ responzivního webu-->
+        <script src="math.js"></script> <!-- js slouží k uložení fcí javascriptu-->
+    </head>
+    <body onload="zpracujNacteniStranky()">
+        <main>
+       
+            <section class="hlavicka">
+                <b>Pavelvon Games</b> 
+            </section>
+
+            
+            <section class="rocniky">
+                <div class="rocnikitem" onclick="nactiXMLUkolyData('data/ukoly.poutnici1.xml','obsah')">Poutíníci I.</div> 
+            </section>
+
+            <div class="flex_blok"> 
+                <section class="xtemata" id="xtemata">
+                    <!-- automaticky naplněné z rocniku-->
+                </section>
+
+                <section class="obsah" id="obsah">
+                    <!-- automaticky naplněné z tematu-->      
+                </section>
+            </div>
+
+            <section class="paticka">
+                <div class="patickaitem"><b>PATIČKA</b></div>
+                <div class="patickaitem">Poslední aktualizace @2022</div>
+            </section>
+        </main>
+    </body>
+</html>

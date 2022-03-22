@@ -1,0 +1,71 @@
+<xml version="1.0" encoding="UTF-8">
+<!-- prázdný vzorový úkol
+
+        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0" dalsiukolid="0">
+            <ukol_telo>
+                <ukol_zadani>Zadání</ukol_zadani>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            Řešení popsané s pomocí html značek
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+-->
+    <ukoly>
+        <!-- sem vložte zkopirovany element <ukol> -->
+        <ukol id="1" nadpis="Jak založit nový úkol" uroven="5" body="10" reseni_A="14" reseni_B="0" dalsiukolid="2">
+            <ukol_telo>
+                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        <img src="data/obrazky/ukol6.11.1.png" alt="ukol6.11.1"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Pokud jsi pracovala správně, brzy uvidíš další příklad.
+                        Tvoje odpověď je %1.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="2" nadpis="Druhý úkol" uroven="5" body="10" reseni_A="14" reseni_B="0" dalsiukolid="1">
+            <ukol_telo>
+                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        <img src="data/obrazky/ukol6.11.1.png" alt="ukol6.11.1"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Třeba půjdeš zpět.
+                        Tvoje odpověď je %1.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+    </ukoly>
+</xml>
