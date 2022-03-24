@@ -27,7 +27,7 @@
 -->
     <ukoly>
         <!-- sem vložte zkopirovany element <ukol> -->
-        <ukol id="1" nadpis="Jak založit nový úkol" uroven="5" body="10" reseni_A="ZEME" reseni_B="0" dalsiukolid="2" audio="">
+        <ukol id="1" nadpis="1." uroven="5" body="10" reseni_A="ZEME" reseni_B="0" dalsiukolid="2" audio="">
             <ukol_telo>
                 <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
@@ -47,7 +47,7 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-         <ukol id="2" nadpis="Druhý úkol" uroven="5" body="10" reseni_A="14" reseni_B="0" dalsiukolid="3" audio="">
+         <ukol id="2" nadpis="2." uroven="5" body="10" reseni_A="PCSTUL" reseni_B="0" dalsiukolid="3" audio="">
             <ukol_telo>
                 <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
@@ -67,7 +67,7 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-         <ukol id="3" nadpis="třetí úkol" uroven="5" body="10" reseni_A="25" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
+        <ukol id="3" nadpis="3." uroven="5" body="10" reseni_A="MCPOSTER" reseni_B="0" dalsiukolid="4" audio="">
             <ukol_telo>
                 <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
@@ -87,6 +87,85 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        
+        <ukol id="4" nadpis="4." uroven="5" body="10" reseni_A="XBOX" reseni_B="0" dalsiukolid="5" audio="">
+            <ukol_telo>
+                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Třeba půjdeš zpět.
+                        Tvoje odpověď je %1.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="5" nadpis="5." uroven="5" body="10" reseni_A="TIME" reseni_B="0" dalsiukolid="6" audio="">
+            <ukol_telo>
+                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Třeba půjdeš zpět.
+                        Tvoje odpověď je %1.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="6" nadpis="6." uroven="5" body="10" reseni_A="WORLD" reseni_B="0" dalsiukolid="7" audio="">
+            <ukol_telo>
+                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Třeba půjdeš zpět.
+                        Tvoje odpověď je %1.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="7" nadpis="FINALE" uroven="5" body="10" reseni_A="" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
+            <ukol_telo>
+                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Třeba půjdeš zpět.
+                        Tvoje odpověď je %1.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
     </ukoly>
 </xml>
