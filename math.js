@@ -23,9 +23,14 @@ function playSound(inFile) {
 function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
   debugger;
   if (inTestValue == inSolution) {
+    debugger;
     hideAllElementsByClassName("task_container");
-    document.getElementById(next_task_id).style.display = "block";
+    var elm = document.getElementById(next_task_id);
+    // originaly document.getElementById(next_task_id).style.display = "block";
+    elm.style.display = "block";
+    //elm.getAttribute("audio");
     playSound("517778__samuelgremaud__hen-1.wav");
+    playSound(elm.getAttribute("audio"));
   } else {
     playSound("475734__dogwomble__rubber-chicken-1.wav");
   }
@@ -93,7 +98,7 @@ function nactiUkoly(xmlText, inElementId) {
     txt += "<div class='task_points'>" + x[i].getAttribute("body") + "</div>";
     txt += "</section>";
   
-      txt += "<div class='task_container' id='" + x[i].getAttribute("id") + "'>";
+      txt += "<div class='task_container' id='" + x[i].getAttribute("id") + "'" + "audio=\"" + x[i].getAttribute("audio") + "\">";
           txt += "<section class='task_description'>";
             txt +=  x[i].getElementsByTagName("ukol_zadani")[0].innerHTML;
           txt += "</section>"; // ukol_zadani
@@ -112,7 +117,7 @@ function nactiUkoly(xmlText, inElementId) {
 
           // element odpovědi a řešení 
           debugger
-          txt += "<section class=\"task_answer\" task_id=\""+ x[i].getAttribute("id") + "\" task_points=\"" + x[i].getAttribute("body") + "\" next_task_id=\"" + x[i].getAttribute("dalsiukolid") + "\" task_answer1=\"" + x[i].getAttribute("reseni_A") + "\">"
+          txt += "<section class=\"task_answer\" task_id=\""+ x[i].getAttribute("id") + "\" task_points=\"" + x[i].getAttribute("body") + "\" next_task_id=\"" + x[i].getAttribute("dalsiukolid") + "\" task_answer1=\"" + x[i].getAttribute("reseni_A") + "\">";
           
           // příklad Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
           // pěkná prasárnička :) vnořená změna... ((text.replace %1).replace %2) ...
