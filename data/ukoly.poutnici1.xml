@@ -27,7 +27,7 @@
 -->
     <ukoly>
         <!-- sem vložte zkopirovany element <ukol> -->
-        <ukol id="1" nadpis="Jak založit nový úkol" uroven="5" body="10" reseni_A="14" reseni_B="0" dalsiukolid="2">
+        <ukol id="1" nadpis="Jak založit nový úkol" uroven="5" body="10" reseni_A="ZEME" reseni_B="0" dalsiukolid="2">
             <ukol_telo>
                 <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">

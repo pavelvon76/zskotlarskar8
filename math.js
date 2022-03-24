@@ -15,9 +15,9 @@ function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
   if (inTestValue == inSolution) {
     hideAllElementsByClassName("task_container");
     document.getElementById(next_task_id).style.display = "block";
-    play("data/audio/401324__alanmcki__magical-portal-open.wav");
+    play("data/audio/517778__samuelgremaud__hen-1.wav");
   } else {
-    play("data/audio/54047__guitarguy1985__buzzer.wav");
+    play("data/audio/475734__dogwomble__rubber-chicken-1.wav");
   }
 }
 
@@ -76,7 +76,8 @@ function nactiUkoly(xmlText, inElementId) {
   for (i = 0; i< x.length; i++) {
     txt += "<div class='task'>";
 
-    txt += "<section class='task_header' onclick=\"hideAllElementsByClassName(\'task_container\');this.nextElementSibling.style=\'display:block\'\">";
+    // onclick=\"hideAllElementsByClassName(\'task_container\');this.nextElementSibling.style=\'display:block\'\"
+    txt += "<section class='task_header'>";
     txt += "<div class='task_header_desc'>" +  x[i].getAttribute("nadpis") + "</div>";
     txt += "<div class='task_level' level='" + x[i].getAttribute("uroven") +  "'>" + x[i].getAttribute("uroven") + "</div>";
     txt += "<div class='task_points'>" + x[i].getAttribute("body") + "</div>";

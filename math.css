@@ -100,6 +100,7 @@ main {
 
 .hlavicka {
     background: #03a9f4;
+    text-align: center;
 }
 
 .rocniky {
@@ -113,6 +114,8 @@ main {
 .rocnikitem {
     border: 1px solid #000000;
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: black;
     text-align: center;
 }
@@ -145,6 +148,7 @@ main {
     border: 1px solid blue;
     color: #129a22;  
     text-align: center;
+    padding: 5px;
 }
 
 /* responsive section */
