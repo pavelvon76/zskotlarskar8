@@ -1,6 +1,6 @@
 window.onload=function() {
   zpracujNacteniStranky(); 
-  playSound("poutnici_DespicableMe.m4a");
+  playSound("poutnici_DespicableMe.mp3");
 }
 
 function hideAllElementsByClassName(className) {
@@ -13,8 +13,11 @@ function hideAllElementsByClassName(className) {
 function playSound(inFile) {
   var filepath = "data/audio/" + inFile;
   var audio = new Audio(filepath);
+  // have to wait till the data are loaded
+  audio.onloadeddata = function() {
+    audio.play();
+  }
   audio.load();
-  audio.play();
 }
 
 function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
