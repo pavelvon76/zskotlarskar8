@@ -22,7 +22,6 @@ function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
     hideAllElementsByClassName("task_container");
     document.getElementById(next_task_id).style.display = "block";
     playSound("517778__samuelgremaud__hen-1.wav");
-    playSound('Poutnici_DespicableMe.m4a');
   } else {
     playSound("475734__dogwomble__rubber-chicken-1.wav");
   }
