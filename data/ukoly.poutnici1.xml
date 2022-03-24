@@ -104,7 +104,7 @@
             <ukol_telo>
                 <ukol_zadani>
                     <p>Jasně, všechny plány jsou nejlépe schovány na očích! Tak je to!<br/>
-                    Jak jenom dál? Je mi jasné, že jeho plán je velmi hanebný.<br/>
+                    Jak jenom dál? Najděte ten poster! Je mi jasné, že jeho plán je velmi hanebný.<br/>
                     Vím, že miluje grilovaná kuřata! A jeho plán bude v prní řadě si jich pár dát.</p>
                     <p>Na plánu se jistě nalézají nějaká pečená, nebo grilovaná kuřata!</p>
                     <img src="data/obrazky/chickendead.gif" alt="hurry up!"/>
@@ -153,9 +153,9 @@
         <ukol id="6" nadpis="6. úkol" uroven="5" body="10" reseni_A="CHICKEN" reseni_B="0" dalsiukolid="7" audio="">
             <ukol_telo>
                 <ukol_zadani>Rychle seberte jeho skříňku s CHIPY na ovládnutí planety a utíkejte do TIME MACHINE!<br/>
-                    Vím, vypadá to jednoduše, skříňka je popsaná, ale zdání klame.<br/>
                     Najděte ji, čas běží! Musíte se tam vtěsnat všichni. Zavřít za sebou poklop.<br/>
                     Je mi jasné, že mi nevěříte, ale zkuste to. Nedejte na první dojem!
+                    Vím, vypadá to jednoduše, skříňka je popsaná, ale zdání klame.<br/>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
@@ -182,6 +182,8 @@
                 <ukol_zadani><p>Jste miloučcí a heboučcí a zasloužíte milion objetí a pusinek od Aštara Šerana !!!<br/>
                     Ale Fuj, co to kecám. Jste drsná parta Poutníků, která dokáže zachránit planetu ... a taky trochu kuřat!</p>
                     <img src="data/obrazky/happySC.jpg" alt="ukazovatko"/>
+                    <p>co víc si přát???? </p>
+                    <img src="data/obrazky/flying-pig-chicken-life.gif" alt="jizda"/>
                 </ukol_zadani>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka> Již žádné odpovědi ... jen sladká pomsta Aštara Šerana visí ve vzduchu ...</ukol_odpoved_zaka>
