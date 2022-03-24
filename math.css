@@ -69,6 +69,11 @@ main, header, section, aside, footer {
     background: orange;
 }
 
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
 .task_help_line img {
     max-width: 100%;
     height: auto; 
