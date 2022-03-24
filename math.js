@@ -6,7 +6,8 @@ function hideAllElementsByClassName(className) {
 }
 
 function play(inFile) {
-  var audio = new Audio(inFile);
+  var filepath = "data/audio/" + inFile;
+  var audio = new Audio(filepath);
   audio.play();
 }
 
@@ -15,15 +16,16 @@ function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
   if (inTestValue == inSolution) {
     hideAllElementsByClassName("task_container");
     document.getElementById(next_task_id).style.display = "block";
-    play("data/audio/517778__samuelgremaud__hen-1.wav");
+    play("517778__samuelgremaud__hen-1.wav");
   } else {
-    play("data/audio/475734__dogwomble__rubber-chicken-1.wav");
+    play("475734__dogwomble__rubber-chicken-1.wav");
   }
 }
 
 function zpracujNacteniStranky() {
 
   // výchozí akce
+  play("Poutnici_DespicableMe.m4a");
   nactiHTMLData('data/info.html','obsah');
 
   // př. volání http://127.0.0.1:5501/index.html?rocnik=6&tema=ukoly6.delitelnost
