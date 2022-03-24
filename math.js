@@ -1,3 +1,8 @@
+window.onload=function() {
+  zpracujNacteniStranky(); 
+  playSound("Poutnici_DespicableMe.m4a");
+}
+
 function hideAllElementsByClassName(className) {
     var x = document.getElementsByClassName(className);
     for (var i = 0; i < x.length; i++) {
@@ -5,7 +10,7 @@ function hideAllElementsByClassName(className) {
     }
 }
 
-function play(inFile) {
+function playSound(inFile) {
   var filepath = "data/audio/" + inFile;
   var audio = new Audio(filepath);
   audio.play();
@@ -16,18 +21,18 @@ function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
   if (inTestValue == inSolution) {
     hideAllElementsByClassName("task_container");
     document.getElementById(next_task_id).style.display = "block";
-    play("517778__samuelgremaud__hen-1.wav");
+    playSound("517778__samuelgremaud__hen-1.wav");
+    playSound('Poutnici_DespicableMe.m4a');
   } else {
-    play("475734__dogwomble__rubber-chicken-1.wav");
+    playSound("475734__dogwomble__rubber-chicken-1.wav");
   }
 }
 
 function zpracujNacteniStranky() {
 
   // výchozí akce
-  play("Poutnici_DespicableMe.m4a");
   nactiHTMLData('data/info.html','obsah');
-
+     
   // př. volání http://127.0.0.1:5501/index.html?rocnik=6&tema=ukoly6.delitelnost
   const dotazNaWeb = window.location.search;  // získám celý řetězec dotazu
   const dotazParametry = new URLSearchParams(dotazNaWeb);  // z řetezce chci znát jen ty parametry, tj. vše za ?
