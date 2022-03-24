@@ -27,143 +27,165 @@
 -->
     <ukoly>
         <!-- sem vložte zkopirovany element <ukol> -->
-        <ukol id="1" nadpis="1." uroven="5" body="10" reseni_A="ZEME" reseni_B="0" dalsiukolid="2" audio="">
+        <ukol id="1" nadpis="1. úkol" uroven="5" body="10" reseni_A="ZEME" reseni_B="0" dalsiukolid="2" audio="">
             <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_zadani>
+                    <p>Je to tak! Aštar Šeran v přestrojení za milujícího mimozemšťana usiluje o všechna kuřata na zemi.</p>
+                    <p>"Miluji svět ... a pečená kuřata:" to jsou jeho slova.</p>
+                    <p>Musíte mi pomoci, musíme zjistit o co Aštarovi ve skutečnosti jde. Kuřata jsou mu v cestě ale tím on určitě neskončí!</p>
+                    <p>Ukradl jsem jeho tajnou šifru a kód. Jen přijít na to, jak ho použít.</p>
+                    <p><b>Tajný kód: [13,14][1,5][6,1][2,3]</b></p>
+                    <img src="data/obrazky/101.jpg" alt="101"/>
+                </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/ukol6.11.1.png" alt="ukol6.11.1"/>
+                        Prozkoumej text Aštarova textu, čeho kolik je?<br/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Pokud jsi pracovala správně, brzy uvidíš další příklad.
+                        Doufám, že se ti podařilo zjistit konečný záměr Aštara!
                         Tvoje odpověď je %1.
                     </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
+                    <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-         <ukol id="2" nadpis="2." uroven="5" body="10" reseni_A="PCSTUL" reseni_B="0" dalsiukolid="3" audio="">
+         <ukol id="2" nadpis="2. úkol" uroven="5" body="10" reseni_A="PCSTUL" reseni_B="0" dalsiukolid="3" audio="">
             <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_zadani><p>Teď už je vám jasné, že jde Aštar i po vás všech. Jeho cílem je zblbnout a očipovat všechny lidi!</p>
+                            <p>Kdybychom tak mohli najít jeho cestovní plán.<br/>Nejdřív ze všeho však najděte v tomto příbytku malou planetu připomínající Zemi. Pořádně ji prozkoumejte.</p>
+                            <p>Našel jsem aštarovu mřížku a žetony ukazující divně známé tvory. Jen je dát dohromady.</p>
+                            <p>Zobraz si nápovědu ...</p>
+                </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/ukol6.11.1.png" alt="ukol6.11.1"/>
+                        <img src="data/obrazky/ukol2z6.png" alt="mrizka"/>
+                        Žetony:<br/>
+                        <img src="data/obrazky/201.jpg" border="5px" alt="201"/>
+                        <img src="data/obrazky/202.jpg" border="5px" alt="201"/>
+                        <img src="data/obrazky/203.jpg" border="5px" alt="201"/>
+                        <img src="data/obrazky/204.jpg" border="5px" alt="201"/>
+                        <img src="data/obrazky/205.jpg" border="5px" alt="201"/>
+                        <img src="data/obrazky/206.jpg" border="5px" alt="201"/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Třeba půjdeš zpět.
-                        Tvoje odpověď je %1.
+                        Všimli jste si těch očí!!! Jde z toho ztrach. Aštar ukryl své plány někde u %1.
                     </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
+                    <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="3" nadpis="3." uroven="5" body="10" reseni_A="MCPOSTER" reseni_B="0" dalsiukolid="4" audio="">
+        <ukol id="3" nadpis="3. úkol" uroven="5" body="10" reseni_A="MCPOSTER" reseni_B="0" dalsiukolid="4" audio="">
             <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_zadani>
+                    <p>Zaujměte <b>všichni hvězdnou pozici</b>. Vím, že Aštar vládne schopností nenápadně věci uschovat.<br/>
+                    Jak jsem ho stopoval na Alfa Centauri, vypadlo mu z kapsy zvláštní ukazovátko, snad vám bude k užitku. Dobře ho opatrujte!</p> 
+                    <p><img src="data/obrazky/spaceChick.jpg" alt="hurry up!"/></p>
+                    <p>Dobře si jeho mapu prohlédněte, měla by nás zavést k místu, kde nechal plány na technologie pro ovládnutí lidstva a sežrání všech kuřat!</p>
+                </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
+                        Si děláte srandu ne? Co takto prozkoumat ten stůl, zaujmout ... hvězdnou pozici ... a zjistit, co jenom dělá to ukazovátko?<br/>
+                        <img src="data/obrazky/spacechikn.gif" alt="hurry up!"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Už je to jasné, plán ukrývá %1, já to věděl!
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni></ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="4" nadpis="4. úkol" uroven="5" body="10" reseni_A="3" reseni_B="0" dalsiukolid="5" audio="">
+            <ukol_telo>
+                <ukol_zadani>
+                    <p>Jasně, všechny plány jsou nejlépe schovány na očích! Tak je to!<br/>
+                    Jak jenom dál? Je mi jasné, že jeho plán je velmi hanebný.<br/>
+                    Vím, že miluje grilovaná kuřata! A jeho plán bude v prní řadě si jich pár dát.</p>
+                    <p>Na plánu se jistě nalézají nějaká pečená, nebo grilovaná kuřata!</p>
+                    <img src="data/obrazky/chickendead.gif" alt="hurry up!"/>
+                    <p>Najděte je a spočtěte kolik kuřat padne za Zemi v prvním kole :O.</p>
+                </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Hledej líp, najdeš, spoléhám na tebe. Myslím, že bude dobré najít nějaký pojízdný grill!<br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="čekám ... jde o život kuřat!"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Takže to máme %1 kuřátka. Stateční bojovníci v prní linii. Čest jim!
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni></ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="5" nadpis="5. úkol" uroven="5" body="10" reseni_A="TIME" reseni_B="0" dalsiukolid="6" audio="">
+            <ukol_telo>
+                <ukol_zadani>
+                    <p>Jaká to hanebnost. Najděte černou velící aštarovu skříňku, která má jedno oko kovové.<br/>
+                        K němu jsou připojena další 3 oči. Díky tomu vidí Aštar téměř do každého bytu!!!<br/>
+                        Dejte si dobrý pozor, když budete jeho 3 oči obdivovat.</p>
+                        <p>Co mi ten kód jenom připomíná?<br/>
+                        <b>A2,B2,C2,B3,B4,B5,B6</b> no to bude nejspíš Excel. Určitě je Bill Gates s nimi! To je jasné.<br/>
+                        kód pokračuje: <b>E2,E3,E4,E5,E6,G2,G3,G4,G5,G6,K2,K3,K4,K5,K6,M2,M3,M4,M5,M6</b> a ještě<br/>
+                        <b>H3,I4,J3,N6,O6,P6,N4,O4,P4,N2,O2,P2</b></p>
+                        <p>Už vím, co to je! Pokud netušíte, lízněte si nápovědu.</p>
+                </ukol_zadani>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        Hrál jsi někdy lodě a víš co je to Excel? Zkus všechny lodě potopit. <br/>
                         <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Třeba půjdeš zpět.
-                        Tvoje odpověď je %1.
+                        Propána, nezbývá nám vůbec žádný %1. Musíme si pohnout.
                     </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
+                    <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="4" nadpis="4." uroven="5" body="10" reseni_A="XBOX" reseni_B="0" dalsiukolid="5" audio="">
+        <ukol id="6" nadpis="6. úkol" uroven="5" body="10" reseni_A="CHICKEN" reseni_B="0" dalsiukolid="7" audio="">
             <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
+                <ukol_zadani>Rychle seberte jeho skříňku s CHIPY na ovládnutí planety a utíkejte do TIME MACHINE!<br/>
+                    Vím, vypadá to jednoduše, skříňka je popsaná, ale zdání klame.<br/>
+                    Najděte ji, čas běží! Musíte se tam vtěsnat všichni. Zavřít za sebou poklop.<br/>
+                    Je mi jasné, že mi nevěříte, ale zkuste to. Nedejte na první dojem!
+                </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
+                        Pamatujete na ... hvězdnou pozici ... co vám pomohlo? <br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="hvězdná pozice"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        A ukazovátko máte? <br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="ukazovatko"/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Třeba půjdeš zpět.
-                        Tvoje odpověď je %1.
+                        Teď a nebo nikdy, zasaďte poslední ránu aštarova plánu. Je proklatě dobré, je sexy, je to prostě %1 !
                     </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
-                </ukol_odpoved>    
-            </ukol_telo>
-        </ukol>
-        <ukol id="5" nadpis="5." uroven="5" body="10" reseni_A="TIME" reseni_B="0" dalsiukolid="6" audio="">
-            <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
-                <ukol_napoveda body_dolu="-1">
-                    <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
-                    </ukol_napoveda_obsah>
-                </ukol_napoveda>
-                <ukol_odpoved>
-                    <ukol_odpoved_zaka>
-                        Třeba půjdeš zpět.
-                        Tvoje odpověď je %1.
-                    </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
-                </ukol_odpoved>    
-            </ukol_telo>
-        </ukol>
-        <ukol id="6" nadpis="6." uroven="5" body="10" reseni_A="WORLD" reseni_B="0" dalsiukolid="7" audio="">
-            <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
-                <ukol_napoveda body_dolu="-1">
-                    <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
-                    </ukol_napoveda_obsah>
-                </ukol_napoveda>
-                <ukol_odpoved>
-                    <ukol_odpoved_zaka>
-                        Třeba půjdeš zpět.
-                        Tvoje odpověď je %1.
-                    </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
+                    <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
         <ukol id="7" nadpis="FINALE" uroven="5" body="10" reseni_A="" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
             <ukol_telo>
-                <ukol_zadani>Prvni ukol je snadny, dejte jakýkoliv výsledek. </ukol_zadani>
-                <ukol_napoveda body_dolu="-1">
-                    <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
-                    </ukol_napoveda_obsah>
-                </ukol_napoveda>
+                <ukol_zadani><p>Jste miloučcí a heboučcí a zasloužíte milion objetí a pusinek od Aštara Šerana !!!<br/>
+                    Ale Fuj, co to kecám. Jste drsná parta Poutníků, která dokáže zachránit planetu ... a taky trochu kuřat!</p>
+                    <img src="data/obrazky/happySC.jpg" alt="ukazovatko"/>
+                </ukol_zadani>
                 <ukol_odpoved>
-                    <ukol_odpoved_zaka>
-                        Třeba půjdeš zpět.
-                        Tvoje odpověď je %1.
-                    </ukol_odpoved_zaka>
-                    <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
-                    </ukol_reseni>
+                    <ukol_odpoved_zaka> Již žádné odpovědi ... jen sladká pomsta Aštara Šerana visí ve vzduchu ...</ukol_odpoved_zaka>
+                    <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>

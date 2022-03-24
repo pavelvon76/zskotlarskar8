@@ -67,6 +67,7 @@ main, header, section, aside, footer {
 {
     flex: 1;
     background: orange;
+    text-align: center;
 }
 
 img {
