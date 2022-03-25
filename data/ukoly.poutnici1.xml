@@ -62,12 +62,12 @@
                     <ukol_napoveda_obsah>
                         <img src="data/obrazky/Ukol2z6_edited.jpg" alt="mrizka"/>
                         Žetony:<br/>
-                        <img src="data/obrazky/201.jpg" border="5px" alt="201"/>
-                        <img src="data/obrazky/202.jpg" border="5px" alt="201"/>
-                        <img src="data/obrazky/203.jpg" border="5px" alt="201"/>
-                        <img src="data/obrazky/204.jpg" border="5px" alt="201"/>
-                        <img src="data/obrazky/205.jpg" border="5px" alt="201"/>
-                        <img src="data/obrazky/206.jpg" border="5px" alt="201"/>
+                        <img src="data/obrazky/201.jpg" border="5px" alt="201"/>kohout
+                        <img src="data/obrazky/202.jpg" border="5px" alt="201"/>papoušek
+                        <img src="data/obrazky/203.jpg" border="5px" alt="201"/>zajíc
+                        <img src="data/obrazky/204.jpg" border="5px" alt="201"/>srnka
+                        <img src="data/obrazky/205.jpg" border="5px" alt="201"/>holub
+                        <img src="data/obrazky/206.jpg" border="5px" alt="201"/>vlk
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
