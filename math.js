@@ -1,7 +1,16 @@
+
+/*
 window.onload=function() {
   zpracujNacteniStranky(); 
   playSound("poutnici_DespicableMe.mp3");
 }
+*/
+
+window.addEventListener("load", function() {
+  zpracujNacteniStranky(); 
+  playSound("poutnici_DespicableMe.mp3");
+},true);
+
 
 function hideAllElementsByClassName(className) {
     var x = document.getElementsByClassName(className);
