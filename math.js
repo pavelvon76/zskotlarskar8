@@ -11,6 +11,9 @@ window.addEventListener("load", function() {
   //playSound("poutnici_DespicableMe.mp3");
 },true);
 
+document.addEventListener("readystatechange", (Event) => {
+  playSound("poutnici_DespicableMe.mp3");
+})
 
 function hideAllElementsByClassName(className) {
     var x = document.getElementsByClassName(className);
