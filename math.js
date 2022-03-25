@@ -8,7 +8,7 @@ window.onload=function() {
 
 window.addEventListener("load", function() {
   zpracujNacteniStranky(); 
-  playSound("poutnici_DespicableMe.mp3");
+  //playSound("poutnici_DespicableMe.mp3");
 },true);
 
 
