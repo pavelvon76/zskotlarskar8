@@ -15,12 +15,14 @@ document.addEventListener("readystatechange", (Event) => {
   playSound("poutnici_DespicableMe.mp3");
 })
 
-function hideAllElementsByClassName(className) {
+/*
+ hideAllElementsByClassName(className) {
     var x = document.getElementsByClassName(className);
     for (var i = 0; i < x.length; i++) {
     x[i].style.display = "none";
     }
 }
+*/
 
 function playSound(inFile) {
   var filepath = "data/audio/" + inFile;
