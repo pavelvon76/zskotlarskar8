@@ -19,14 +19,34 @@ function getLocation() {
     
 function showPosition(position) {
   var possition = document.getElementById("possition");
+  
+  // doma
+  var doma_la = 49.18956;
+  var doma_lo = 16.53764;
+  
+  // vozovna Lískovec, konečná 6, 7 digits = cm, 5 dig = m
+  var stage1_la = 49.17047;
+  var stage1_lo = 16.55455;
+  // office balcony
+  var stage2_la = 49.19836; 
+  var stage2_lo = 16.60618;
+  // accuracy 
+  var acc = position.coords.accuracy; 
+  var myacc = 0.01;         // 0.00001 should be +- 1 meter
 
   possition.innerHTML="Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
   // 49.18956640068099, 16.537644412888962
   var la = position.coords.latitude;
   var lo = position.coords.longitude;
-  if (((la >= 49.1859162) && (la <= 49.192)) && ((lo >= 16.5368246) && (lo <= 16.6116))) {
-    possition.innerHTML = "FOUND IT!!!!";
+  if (((la >= (doma_la - myacc)) && (la <= (doma_la + myacc))) && ((lo >= (doma_lo - myacc)) && (lo <= (doma_lo + myacc)))) {
+    possition.innerHTML = "HOME !!!! " + acc;
+  }
+  if (((la >= 49.17026) && (la <= 49.17069)) && ((lo >= 16.55430) && (lo <= 16.55460))) {
+    possition.innerHTML = "KONECNA 6 !!!! " + acc;
+  }
+  if (((la >= 49.19830) && (la <= 49.19845)) && ((lo >= 16.60590) && (lo <= 16.60640))) {
+    possition.innerHTML = "BALCONY !!!! " + acc;
   }
 }
 
