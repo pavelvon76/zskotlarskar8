@@ -1,10 +1,36 @@
 
 /*
+https://www.w3schools.com/js/js_cookies.asp
 window.onload=function() {
   zpracujNacteniStranky(); 
   playSound("poutnici_DespicableMe.mp3");
 }
 */
+
+// start navigace
+function getLocation() {
+  var possition = document.getElementById("possition");
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else { 
+    possition.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+    
+function showPosition(position) {
+  var possition = document.getElementById("possition");
+
+  possition.innerHTML="Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+  // 49.18956640068099, 16.537644412888962
+  var la = position.coords.latitude;
+  var lo = position.coords.longitude;
+  if (((la >= 49.1859162) && (la <= 49.192)) && ((lo >= 16.5368246) && (lo <= 16.6116))) {
+    possition.innerHTML = "FOUND IT!!!!";
+  }
+}
+
+
 
 window.addEventListener("load", function() {
   zpracujNacteniStranky(); 
