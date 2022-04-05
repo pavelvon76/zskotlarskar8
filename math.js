@@ -20,6 +20,7 @@ function getLocation() {
 function inTargitArea(targit_la,targit_lo,act_la,act_lo){
   // nastav přesnost, set accuracy
   var myacc = 0.01;         // 0.00001 should be +- 1 meter
+  debugger;
   return(((act_la >= (targit_la - myacc)) && (act_la <= (targit_la + myacc))) && ((act_lo >= (targit_lo - myacc)) && (act_lo <= (targit_lo + myacc)))); 
 }
 
@@ -34,21 +35,24 @@ function showPosition(position) {
   var stage1_la = 49.17047;
   var stage1_lo = 16.55455;
   // office balcony
-  var stage2_la = 49.19823; 
-  var stage2_lo = 16.60620;
+  var stage2_la = 49.19828; 
+  var stage2_lo = 16.60611;
   // accuracy 
   var acc = position.coords.accuracy; 
 
-
+  debugger;
   possition.innerHTML="Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
   // 49.18956640068099, 16.537644412888962
   var la = position.coords.latitude;
   var lo = position.coords.longitude;
-  if (((la >= (doma_la - myacc)) && (la <= (doma_la + myacc))) && ((lo >= (doma_lo - myacc)) && (lo <= (doma_lo + myacc)))) {
+
+  if (inTargitArea(doma_la,doma_lo,la,lo))  {
     possition.innerHTML = "HOME !!!! " + acc;}
   
-  if (((la >= 49.17026) && (la <= 49.17069)) && ((lo >= 16.55430) && (lo <= 16.55460))) {
+  //  worked on the stage
+  // if (((la >= 49.17026) && (la <= 49.17069)) && ((lo >= 16.55430) && (lo <= 16.55460))) {
+  if (inTargitArea(stage1_la,stage1_lo,la,lo)) {
     possition.innerHTML = "KONECNA 6 !!!! " + acc;}
 
   if (inTargitArea(stage2_la,stage2_lo,la,lo)) {
@@ -82,9 +86,7 @@ function playSound(inFile) {
 }
 
 function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
-  debugger;
   if (inTestValue == inSolution) {
-    debugger;
     hideAllElementsByClassName("task_container");
     var elm = document.getElementById(next_task_id);
     // originaly document.getElementById(next_task_id).style.display = "block";
@@ -142,7 +144,6 @@ function nactiXMLUkolyData(inXMLFile,inElementId) {
 
 function nactiUkoly(xmlText, inElementId) {
   var x, i, xmlDoc, txt;
-  debugger;
   parser = new DOMParser;
   xmlDoc = parser.parseFromString(xmlText,"text/xml");
   txt = "";
