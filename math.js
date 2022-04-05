@@ -19,7 +19,7 @@ function getLocation() {
 
 function inTargitArea(targit_la,targit_lo,act_la,act_lo){
   // nastav přesnost, set accuracy
-  var myacc = 0.01;         // 0.00001 should be +- 1 meter
+  var myacc = 0.00033;         // 0.00001 should be +- 1 meter
   debugger;
   return(((act_la >= (targit_la - myacc)) && (act_la <= (targit_la + myacc))) && ((act_lo >= (targit_lo - myacc)) && (act_lo <= (targit_lo + myacc)))); 
 }
