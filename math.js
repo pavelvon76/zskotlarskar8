@@ -17,6 +17,11 @@ function getLocation() {
   }
 }
 
+function SetMyGpsAcc() {
+  var myacc = parseFloat(document.getElementById("myGpsAcc").value);
+  document.getElementById("myGpsAccValue").innerHTML = myacc;
+}
+
 function inTargitArea(targit_la,targit_lo,act_la,act_lo){
   // nastav přesnost, set accuracy // 0.00001 should be +- 1 meter //0.00033;
   debugger;
@@ -24,7 +29,6 @@ function inTargitArea(targit_la,targit_lo,act_la,act_lo){
   if (myacc != 0) {
     myacc = 0.00001 + (myacc/100000); 
   }
-
   return(((act_la >= (targit_la - myacc)) && (act_la <= (targit_la + myacc))) && ((act_lo >= (targit_lo - myacc)) && (act_lo <= (targit_lo + myacc)))); 
 }
 
