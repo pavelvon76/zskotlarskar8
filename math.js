@@ -34,8 +34,8 @@ function showPosition(position) {
   var stage1_la = 49.17047;
   var stage1_lo = 16.55455;
   // office balcony
-  var stage2_la = 49.19836; 
-  var stage2_lo = 16.60618;
+  var stage2_la = 49.19823; 
+  var stage2_lo = 16.60620;
   // accuracy 
   var acc = position.coords.accuracy; 
 
