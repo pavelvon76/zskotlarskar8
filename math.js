@@ -16,7 +16,13 @@ function getLocation() {
     possition.innerHTML = "Geolocation is not supported by this browser.";
   }
 }
-    
+
+function inTargitArea(targit_la,targit_lo,act_la,act_lo){
+  // nastav přesnost, set accuracy
+  var myacc = 0.01;         // 0.00001 should be +- 1 meter
+  return(((act_la >= (targit_la - myacc)) && (act_la <= (targit_la + myacc))) && ((act_lo >= (targit_lo - myacc)) && (act_lo <= (targit_lo + myacc)))); 
+}
+
 function showPosition(position) {
   var possition = document.getElementById("possition");
   
@@ -32,7 +38,7 @@ function showPosition(position) {
   var stage2_lo = 16.60618;
   // accuracy 
   var acc = position.coords.accuracy; 
-  var myacc = 0.01;         // 0.00001 should be +- 1 meter
+
 
   possition.innerHTML="Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
@@ -40,12 +46,12 @@ function showPosition(position) {
   var la = position.coords.latitude;
   var lo = position.coords.longitude;
   if (((la >= (doma_la - myacc)) && (la <= (doma_la + myacc))) && ((lo >= (doma_lo - myacc)) && (lo <= (doma_lo + myacc)))) {
-    possition.innerHTML = "HOME !!!! " + acc;
-  }
+    possition.innerHTML = "HOME !!!! " + acc;}
+  
   if (((la >= 49.17026) && (la <= 49.17069)) && ((lo >= 16.55430) && (lo <= 16.55460))) {
-    possition.innerHTML = "KONECNA 6 !!!! " + acc;
-  }
-  if (((la >= 49.19830) && (la <= 49.19845)) && ((lo >= 16.60590) && (lo <= 16.60640))) {
+    possition.innerHTML = "KONECNA 6 !!!! " + acc;}
+
+  if (inTargitArea(stage2_la,stage2_lo,la,lo)) {
     possition.innerHTML = "BALCONY !!!! " + acc;
   }
 }
