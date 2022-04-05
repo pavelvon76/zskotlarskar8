@@ -18,9 +18,13 @@ function getLocation() {
 }
 
 function inTargitArea(targit_la,targit_lo,act_la,act_lo){
-  // nastav přesnost, set accuracy
-  var myacc = 0.00033;         // 0.00001 should be +- 1 meter
+  // nastav přesnost, set accuracy // 0.00001 should be +- 1 meter //0.00033;
   debugger;
+  var myacc = parseFloat(document.getElementById("myGpsAcc").value);
+  if (myacc != 0) {
+    myacc = 0.00001 + (myacc/100000); 
+  }
+
   return(((act_la >= (targit_la - myacc)) && (act_la <= (targit_la + myacc))) && ((act_lo >= (targit_lo - myacc)) && (act_lo <= (targit_lo + myacc)))); 
 }
 
@@ -28,7 +32,7 @@ function showPosition(position) {
   var possition = document.getElementById("possition");
   
   // doma
-  var doma_la = 49.18956;
+  var doma_la = 49.19030;
   var doma_lo = 16.53764;
   
   // vozovna Lískovec, konečná 6, 7 digits = cm, 5 dig = m
