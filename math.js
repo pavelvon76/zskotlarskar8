@@ -16,7 +16,7 @@ function dejHTMLData(inHTMLFile) {
       dejHTMLData = this.responseText;
       }
   }
-  inHTMLFile = 'data/temata7.html';
+  //inHTMLFile = 'data/temata7.html';
   xhttp.open("GET", inHTMLFile, true);
   xhttp.send();
 }
