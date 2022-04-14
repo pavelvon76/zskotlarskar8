@@ -7,6 +7,21 @@ window.onload=function() {
 }
 */
 
+// for MZLU
+function dejHTMLData(inHTMLFile) {
+  debugger;
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      dejHTMLData = this.responseText;
+      }
+  }
+  inHTMLFile = 'data/temata7.html';
+  xhttp.open("GET", inHTMLFile, true);
+  xhttp.send();
+}
+
+
 // start navigace
 function getLocation() {
   var possition = document.getElementById("possition");
