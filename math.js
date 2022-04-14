@@ -7,6 +7,11 @@ window.onload=function() {
 }
 */
 
+// test MZLU
+function mzluListening(){
+  exit('<b>OK</>');
+}
+
 // for MZLU
 function dejHTMLData(inHTMLFile) {
   debugger;
