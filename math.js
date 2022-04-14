@@ -13,7 +13,7 @@ function dejHTMLData(inHTMLFile) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      dejHTMLData = this.responseText;
+      return(this.responseText);
       }
   }
   //inHTMLFile = 'data/temata7.html';
