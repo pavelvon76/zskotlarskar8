@@ -30,11 +30,11 @@
         <ukol id="1" nadpis="1. Dějepic" uroven="1" body="0" reseni_A="1620" reseni_B="0" dalsiukolid="2" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Je to tady! Děják. Právem si připadám jak v jiném století. Co je komu do bitvy na Bílé hoře.
+                    <p>Je to tady! Děják. Právem si připadám jak v jiném století. Co je komu do bitvy na Bílé hoře?
                     Prý osudné pro Čechy. Represe, deprese, všetci pamětníci chcípli. Blablabla.
                     Ještě, že mám mobil pod lavicí! Kdyby tak furt nevyskakovaly ty reklamy.</p>
                     <p>::: Haloooo!!!!, můžeš odpovědět! ::: Stojí nad tebou učitelka dějepisu a chce znát letopočet bitvy na Bílé hoře.
-                    >Učitelka pomalu odchází k tabuli, máš šanci to rychle zjistit vygooglit</p>
+                    Učitelka pomalu odchází k tabuli, máš šanci to rychle zjistit vygooglit</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
@@ -77,7 +77,7 @@
                     10 minut přestávky je máááááloooo. Záchod, jídlo, přesun do chemie a kde je mé právo vymazat si mozek hraním mobilních her?</p>
                     <img src="data/obrazky/spacechikn.gif" alt="hurry up!"/>
                     <p>A ke všemu ještě ta chemikářka. Ta si asi něco lepšího šlehla, ne?
-                    Nejenom, že přišla 10 minut po zvonění. Ale ještě ke všemu po nás chce, aby výsledkem chemické rovnice bylo město.
+                    Nejenom, že přišla 10 minut po zvonění. Ještě ke všemu po nás chce, aby výsledkem chemické rovnice bylo město.
                     Nevýdané, neslýchané. Prý když vezmu <b>BRÓM</b>, <b>DUSÍK</b> a <b>KYSLÍK</b>, tak z jejich vzorečků objevíme město.</p>
                     <p>Dobře, budu chvíli předpokládat, že to před sboovnou byl cukr a zkusím to!</p>
                 </ukol_zadani>
@@ -189,12 +189,12 @@
                     Ale to je jedno. Škola je šílenéééééé místo. Běžím po chodbě a směrem k hlavním dveřím zrychluji.</p>
                     To neeeeeeeeeeee! Školník, nechytí mě. Teď už žádné dotazy a testy. Jenže on má mobil!!!!
                     <p>CVAK CVAK CVAK</p>
-                    Jsem volný! Vzduch, obloha. CINK PIP. Co to? zvoní mi mobil? Nepřijatá zpráva.
-                    Zvedni ho kliknutím na nápovědu...
+                    Dveře ven a jsem volný! Vzduch, obloha. CINK PIP. Co to? Zvoní mi mobil? Nepřijatá zpráva.
+                    Vyzvedni si ji kliknutím na nápovědu...
                 </ukol_zadani>
                  <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        <p>Zítra se jde do školy znovaaaaaaaaaaaaaaaaa!!!!!</p>
+                        <p>Píše ti školník. Zítra se prý jde zase do školy!!! A má tvoji fotku!!!</p>
                         <img src="data/obrazky/flying-pig-chicken-life.gif" alt="FINALE"/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
