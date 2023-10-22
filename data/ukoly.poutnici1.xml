@@ -30,15 +30,15 @@
         <ukol id="1" nadpis="1. Dějepic" uroven="1" body="0" reseni_A="1620" reseni_B="0" dalsiukolid="2" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Je to tady! Děják. Právem si připadám jak v jiném století. Co je komu do bitvy na Bílé hoře.</p>
-                    <p>Prý osudné pro Čechy. Represe, deprese, všetci pamětníci chcípli. Blablabla.</p>
-                    <p>Ještě, že mám mobil pod lavicí! Kdyby tak furt nevyskakovaly ty reklamy.</p>
-                    <p>::: Haloooo!!!!, můžeš odpovědět! ::: Stojí nad tebou učitelka dějepisu a chce znát letopočet bitvy na Bílé hoře.</p>
-                    <p>Učitelka pomalu odchází k tabuli, máš šanci to rychle zjistit vygooglit</p>
+                    <p>Je to tady! Děják. Právem si připadám jak v jiném století. Co je komu do bitvy na Bílé hoře.
+                    Prý osudné pro Čechy. Represe, deprese, všetci pamětníci chcípli. Blablabla.
+                    Ještě, že mám mobil pod lavicí! Kdyby tak furt nevyskakovaly ty reklamy.</p>
+                    <p>::: Haloooo!!!!, můžeš odpovědět! ::: Stojí nad tebou učitelka dějepisu a chce znát letopočet bitvy na Bílé hoře.
+                    >Učitelka pomalu odchází k tabuli, máš šanci to rychle zjistit vygooglit</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Hmmm, žeby Gooogle? Co? A zkus si ho otevřít v novém okně ať se ti tato hra neresetuje.<br/>
+                        Hmmm, žeby Gooogle? Co? A zkus si ho otevřít v novém okně ať se ti tato hra neresetuje.
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
@@ -49,36 +49,36 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-         <ukol id="2" nadpis="2. Fýza" uroven="5" body="10" reseni_A="NEWTON" reseni_B="0" dalsiukolid="3" audio="">
+         <ukol id="2" nadpis="2. Fýza" uroven="2" body="0" reseni_A="NEWTON" reseni_B="0" dalsiukolid="3" audio="">
             <ukol_telo>
-                <ukol_zadani><p>Schýza, je tu Fýza. Definitivně mám pocit, že cílem školy je zblbnout a očipovat všechny lidi!</p>
-                            <p>Tohle má být elektrický proud? Co je to za mřížku a puntíky.</p>
-                            <p>Fyzikář byl definitivně v minulém životě revizorem. Takto vypadal proštípaný lístek na šalinu.</p>
-                            <p>Prý ten úkol, co nám zadal je o gravitaci. Nějak se mi to nezdá.</p>
+                <ukol_zadani><p>Schýza, je tu Fýza. Definitivně mám pocit, že cílem školy je zblbnout a očipovat všechny lidi!
+                            Tohle má být elektrický proud? Co je to za mřížku a puntíky.</p>
+                            <p>Fyzikář byl definitivně v minulém životě revizorem. Takto vypadal proštípaný lístek na šalinu.
+                            Prý ten úkol, co nám zadal je o gravitaci. Nějak se mi to nezdá.</p>
                             <img src="data/obrazky/2BRAIL.png" border="1px" alt="2BRAIL"/>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        <p>Kde já jsem jen tu tabulku vidět? Sešit z Informatiky! Žeby? ...</p>
+                        Kde já jsem jen tu tabulku vidět? Sešit z Informatiky! Žeby? ...
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Zjistili jste, že o gravitaci nejvíce věděl %1.
+                        Zjistil-a jsi, že o gravitaci nejvíce věděl %1.
                     </ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="3" nadpis="3. Chemák" uroven="5" body="10" reseni_A="BRNO" reseni_B="0" dalsiukolid="4" audio="">
+        <ukol id="3" nadpis="3. Chemák" uroven="3" body="0" reseni_A="BRNO" reseni_B="0" dalsiukolid="4" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Když jsem utíkal do chemie, viděl jsem před sborovnou rozsypaný práškový cukr a mále jsem na něm hodil držku!</p>
-                    <p>10 minut přestávky je máááááloooo. Záchod, jídlo, přesun do chemie a kde je mé právo vymazat si mozek hraním mobilních her?</p>
+                    <p>Když jsem utíkal do chemie, viděl jsem před sborovnou rozsypaný práškový cukr a mále jsem na něm hodil držku!
+                    10 minut přestávky je máááááloooo. Záchod, jídlo, přesun do chemie a kde je mé právo vymazat si mozek hraním mobilních her?</p>
                     <img src="data/obrazky/spacechikn.gif" alt="hurry up!"/>
-                    <p>A ke všemu ještě ta chemikářka. Ta si asi něco lepšího šlehla, ne?</p>
-                    <p>Nejenom, že přišla 10 minut po zvonění. Ale ještě ke všemu po nás chce, aby výsledkem chemické rovnice bylo město.</p>
-                    <p>Nevýdané, neslýchané. Prý když vezmu <b>BRÓM</b>, <b>DUSÍK</b> a <b>KYSLÍK</b>, tak z jejich vzorečků objevíme město.</p>
+                    <p>A ke všemu ještě ta chemikářka. Ta si asi něco lepšího šlehla, ne?
+                    Nejenom, že přišla 10 minut po zvonění. Ale ještě ke všemu po nás chce, aby výsledkem chemické rovnice bylo město.
+                    Nevýdané, neslýchané. Prý když vezmu <b>BRÓM</b>, <b>DUSÍK</b> a <b>KYSLÍK</b>, tak z jejich vzorečků objevíme město.</p>
                     <p>Dobře, budu chvíli předpokládat, že to před sboovnou byl cukr a zkusím to!</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
@@ -94,12 +94,12 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="4" nadpis="4. Čejina" uroven="5" body="10" reseni_A="CARROLL" reseni_B="0" dalsiukolid="5" audio="">
+        <ukol id="4" nadpis="4. Čejina" uroven="4" body="0" reseni_A="CARROLL" reseni_B="0" dalsiukolid="5" audio="">
             <ukol_telo>
                 <ukol_zadani>
                     <p>Ne, nebyl to <b>C</b>ukr. Češtinářka se usmívá jako měsíček na hnoji. 
                     Kde je ta drsná paní, která rozdává rány bičem svázaným z podmětu, přísudku a jejich shody? 
-                    Ta básnička, co nás nutí se naučit je taky z jiného svět<b>A</b>!</p>
+                    Ta básnička, co nás nutí se naučit, je taky z jiného svět<b>A</b>!</p>
                     <br/><i>
                     Bylo smažno, lepě svihlí tlové  <br/>
                     se batoumali v dálnici, <br/>
@@ -118,12 +118,11 @@
                     </i>
                     <br/>
                     <img src="data/obrazky/chickendead.gif" alt="hurry up!"/>
-                    <p>Jestli prý někdo uhádne, kdo takovou šílenost napsal, může si sbalit a má zbytek hodiny volno. To musím zkusit</p>
+                    <p>Jestli prý někdo uhádne, kdo takovou šílenost napsal, může si sbalit a má zbytek hodiny volno. To musím zkusit!</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
                         V tak šíleném textu se jistě najde něco, co bude ještě divnější. Něco, co vždycky brnkne do oka.<br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="waiting"/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
@@ -134,19 +133,19 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="5" nadpis="5. Matika" uroven="5" body="10" reseni_A="PYTHAGORAS" reseni_B="0" dalsiukolid="7" audio="">
+        <ukol id="5" nadpis="5. Matika" uroven="5" body="0" reseni_A="PYTHAGORAS" reseni_B="0" dalsiukolid="6" audio="">
             <ukol_telo>
                 <ukol_zadani>
                     <p>Beru zpět to s cukrem. Byla porada a byla tam i matikářka.
-                       Poslední hodina, naštěstí odpadla informatika a nebudou mě mučit s kódováním a šifrováním!
-                       Už mám nohu napůl ze dveří a ... Čekej!!! Co je tohle <br/>
-                        Právě mi hlavou problesklo, že se dneska ze školy asi nedostanu. Ze třídy totiž může odejít jen ten, kdo vyřeší matematický úkol: <br/>
+                       Tohle je poslední hodina. Naštěstí odpadla informatika a nebudou mě už mučit s kódováním a šifrováním!
+                       Už mám nohu napůl ze dveří ... Čekej!!! Co je tohle?</p>
+                        Právě mi hlavou problesklo, že se dneska ze školy asi nedostanu. Ze třídy totiž může odejít jen ten, kdo vyřeší tento matematický úkol:<br/>
                         <img src="data/obrazky/5MATIKA.png" alt="mat"/>
                         <p>Prý je to někdo, na koho do smrti nezapomeneme. Vzpomněl jsem si na školníka, jak mě honil tudle po chodbě. Žeby?</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Paní učitelka z matematiky učí i informatiku. Nápadně to něco připomíná. Co tak otevřít sešit z informatiky?<br/>
+                        No jasně, ona učí i informatiku! Nápadně to něco připomíná. Co tak otevřít sešit z informatiky?<br/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
@@ -184,13 +183,13 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol> -->
-        <ukol id="7" nadpis="FINÁLEEEEE JDU DOM" uroven="5" body="10" reseni_A="" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
+        <ukol id="6" nadpis="FINÁLEEEEE" uroven="5" body="10" reseni_A="" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
             <ukol_telo>
                 <ukol_zadani><p>Ve škole jsem si zapomněl svačinu, láhev s pitím. Jednu přezůvku jsem ztratil hned za dveřmi.
-                    Ale to je jedno. Škola je šílenéééééé místo. Běžím po chodbě a směrem k hlavním dveřím zrychluji.</p></br>
+                    Ale to je jedno. Škola je šílenéééééé místo. Běžím po chodbě a směrem k hlavním dveřím zrychluji.</p>
                     To neeeeeeeeeeee! Školník, nechytí mě. Teď už žádné dotazy a testy. Jenže on má mobil!!!!
-                    <p>CVAK CVAK CVAK</p></br>
-                    Jsem volný! Vzduch, obloha ... cin cink ... co to? zvoní mi mobil? Nepřijatá zpráva.
+                    <p>CVAK CVAK CVAK</p>
+                    Jsem volný! Vzduch, obloha. CINK PIP. Co to? zvoní mi mobil? Nepřijatá zpráva.
                     Zvedni ho kliknutím na nápovědu...
                 </ukol_zadani>
                  <ukol_napoveda body_dolu="-1">
@@ -200,7 +199,7 @@
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
-                    <ukol_odpoved_zaka> Dnes již žádné odpovědi!</ukol_odpoved_zaka>
+                    <ukol_odpoved_zaka>Dnes již žádné odpovědi!</ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
