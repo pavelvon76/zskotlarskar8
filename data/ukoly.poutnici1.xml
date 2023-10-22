@@ -1,5 +1,5 @@
 <xml version="1.0" encoding="UTF-8">
-<!-- prázdný vzorový úkol
+<!-- prázdný vzorový úkol .. nepoužívej uvozovky vole!!!!
 
         <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0" dalsiukolid="0" audio="mysoun.wav">
             <ukol_telo>
@@ -27,130 +27,137 @@
 -->
     <ukoly>
         <!-- sem vložte zkopirovany element <ukol> -->
-        <ukol id="1" nadpis="1. úkol" uroven="5" body="10" reseni_A="ZEME" reseni_B="0" dalsiukolid="2" audio="">
+        <ukol id="1" nadpis="1. Dějepic" uroven="1" body="0" reseni_A="1620" reseni_B="0" dalsiukolid="2" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Je to tak! Aštar Šeran v přestrojení za milujícího mimozemšťana usiluje o všechna kuřata na zemi.</p>
-                    <p>"Miluji svět ... a pečená kuřata:" to jsou jeho slova.</p>
-                    <p>Musíte mi pomoci, musíme zjistit o co Aštarovi ve skutečnosti jde. Kuřata jsou mu v cestě ale tím on určitě neskončí!</p>
-                    <p>Ukradl jsem jeho tajnou šifru a kód. Jen přijít na to, jak ho použít.</p>
-                    <p><b>Tajný kód: [13,10][1,5][6,1][2,3]</b></p>
-                    <img src="data/obrazky/101.jpg" alt="101"/>
+                    <p>Je to tady! Děják. Právem si připadám jak v jiném století. Co je komu do bitvy na Bílé hoře.</p>
+                    <p>Prý osudné pro Čechy. Represe, deprese, všetci pamětníci chcípli. Blablabla.</p>
+                    <p>Ještě, že mám mobil pod lavicí! Kdyby tak furt nevyskakovaly ty reklamy.</p>
+                    <p>::: Haloooo!!!!, můžeš odpovědět! ::: Stojí nad tebou učitelka dějepisu a chce znát letopočet bitvy na Bílé hoře.</p>
+                    <p>Učitelka pomalu odchází k tabuli, máš šanci to rychle zjistit vygooglit</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Prozkoumej text Aštarova textu, čeho kolik je?<br/>
+                        Hmmm, žeby Gooogle? Co? A zkus si ho otevřít v novém okně ať se ti tato hra neresetuje.<br/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Doufám, že se ti podařilo zjistit konečný záměr Aštara!
-                        Tvoje odpověď je %1.
+                        Našel jsem to. Bitva na Bílé hoře byla %1.
                     </ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-         <ukol id="2" nadpis="2. úkol" uroven="5" body="10" reseni_A="PCSTUL" reseni_B="0" dalsiukolid="3" audio="">
+         <ukol id="2" nadpis="2. Fýza" uroven="5" body="10" reseni_A="NEWTON" reseni_B="0" dalsiukolid="3" audio="">
             <ukol_telo>
-                <ukol_zadani><p>Teď už je vám jasné, že jde Aštar i po vás všech. Jeho cílem je zblbnout a očipovat všechny lidi!</p>
-                            <p>Kdybychom tak mohli najít jeho cestovní plán.<br/>Nejdřív ze všeho však najděte v tomto příbytku malou planetu připomínající Zemi. Pořádně ji prozkoumejte.</p>
-                            <p>Našel jsem aštarovu mřížku a žetony ukazující divně známé tvory. Jen je dát dohromady.</p>
-                            <p>Zobraz si nápovědu ...</p>
+                <ukol_zadani><p>Schýza, je tu Fýza. Definitivně mám pocit, že cílem školy je zblbnout a očipovat všechny lidi!</p>
+                            <p>Tohle má být elektrický proud? Co je to za mřížku a puntíky.</p>
+                            <p>Fyzikář byl definitivně v minulém životě revizorem. Takto vypadal proštípaný lístek na šalinu.</p>
+                            <p>Prý ten úkol, co nám zadal je o gravitaci. Nějak se mi to nezdá.</p>
+                            <img src="data/obrazky/2BRAIL.png" border="1px" alt="2BRAIL"/>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        <img src="data/obrazky/Ukol2z6_edited.jpg" alt="mrizka"/>
-                        Žetony:<br/>
-                        <img src="data/obrazky/201.jpg" border="5px" alt="201"/>kohout
-                        <img src="data/obrazky/202.jpg" border="5px" alt="201"/>papoušek
-                        <img src="data/obrazky/203.jpg" border="5px" alt="201"/>zajíc
-                        <img src="data/obrazky/204.jpg" border="5px" alt="201"/>srnka
-                        <img src="data/obrazky/205.jpg" border="5px" alt="201"/>holub
-                        <img src="data/obrazky/206.jpg" border="5px" alt="201"/>vlk
+                        <p>Kde já jsem jen tu tabulku vidět? Sešit z Informatiky! Žeby? ...</p>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Všimli jste si těch očí!!! Jde z toho ztrach. Aštar ukryl své plány někde u %1.
+                        Zjistili jste, že o gravitaci nejvíce věděl %1.
                     </ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="3" nadpis="3. úkol" uroven="5" body="10" reseni_A="MCPOSTER" reseni_B="0" dalsiukolid="4" audio="">
+        <ukol id="3" nadpis="3. Chemák" uroven="5" body="10" reseni_A="BRNO" reseni_B="0" dalsiukolid="4" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Zaujměte <b>všichni hvězdnou pozici</b>. Vím, že Aštar vládne schopností nenápadně věci uschovat.<br/>
-                    Jak jsem ho stopoval na Alfa Centauri, vypadlo mu z kapsy zvláštní ukazovátko, snad vám bude k užitku. Dobře ho opatrujte!</p> 
-                    <p><img src="data/obrazky/spaceChick.jpg" alt="hurry up!"/></p>
-                    <p>Dobře si jeho mapu prohlédněte, měla by nás zavést k místu, kde nechal plány na technologie pro ovládnutí lidstva a sežrání všech kuřat!</p>
+                    <p>Když jsem utíkal do chemie, viděl jsem před sborovnou rozsypaný práškový cukr a mále jsem na něm hodil držku!</p>
+                    <p>10 minut přestávky je máááááloooo. Záchod, jídlo, přesun do chemie a kde je mé právo vymazat si mozek hraním mobilních her?</p>
+                    <img src="data/obrazky/spacechikn.gif" alt="hurry up!"/>
+                    <p>A ke všemu ještě ta chemikářka. Ta si asi něco lepšího šlehla, ne?</p>
+                    <p>Nejenom, že přišla 10 minut po zvonění. Ale ještě ke všemu po nás chce, aby výsledkem chemické rovnice bylo město.</p>
+                    <p>Nevýdané, neslýchané. Prý když vezmu <b>BRÓM</b>, <b>DUSÍK</b> a <b>KYSLÍK</b>, tak z jejich vzorečků objevíme město.</p>
+                    <p>Dobře, budu chvíli předpokládat, že to před sboovnou byl cukr a zkusím to!</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Si děláte srandu ne? Co takto prozkoumat ten stůl, zaujmout ... hvězdnou pozici ... a zjistit, co jenom dělá to ukazovátko?<br/>
-                        <img src="data/obrazky/spacechikn.gif" alt="hurry up!"/>
+                        Kdybych vzal vzorečky jednolivých prvků a napsal si je, třeba z toho něco bude.<br/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Už je to jasné, plán ukrývá %1, já to věděl!
+                        Dobře, 1:0 pro cukr, nelhala. Je to město jak %1
                     </ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="4" nadpis="4. úkol" uroven="5" body="10" reseni_A="3" reseni_B="0" dalsiukolid="5" audio="">
+        <ukol id="4" nadpis="4. Čejina" uroven="5" body="10" reseni_A="CARROLL" reseni_B="0" dalsiukolid="5" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Jasně, všechny plány jsou nejlépe schovány na očích! Tak je to!<br/>
-                    Jak jenom dál? Najděte ten poster! Je mi jasné, že jeho plán je velmi hanebný.<br/>
-                    Vím, že miluje grilovaná kuřata! A jeho plán bude v prní řadě si jich pár dát.</p>
-                    <p>Na plánu se jistě nalézají nějaká pečená, nebo grilovaná kuřata!</p>
+                    <p>Ne, nebyl to <b>C</b>ukr. Češtinářka se usmívá jako měsíček na hnoji. 
+                    Kde je ta drsná paní, která rozdává rány bičem svázaným z podmětu, přísudku a jejich shody? 
+                    Ta básnička, co nás nutí se naučit je taky z jiného svět<b>A</b>!</p>
+                    <br/><i>
+                    Bylo smažno, lepě svihlí tlové  <br/>
+                    se batoumali v dálnici, <br/>
+                    ch<b>R</b>udošní byli borolové <br/>
+                    na mamné k<b>R</b>sy žárnící. <br/> <br/>
+
+                    «Ó synu, střez se Žvahlava, <br/>
+                    má zuby, drápy pře<b>O</b>stré; <br/>
+                    střez se i Ptáka Neklava, <br/>
+                    zuřmící Bodostre!» <br/> <br/>
+
+                    Svůj chopi<b>L</b> vorpálový meč, <br/>
+                    jímž lita soka vezme v plen, <br/>
+                    pak used v tumtumovou seč <br/>
+                    a čekal diviš<b>L</b>en. <br/>
+                    </i>
+                    <br/>
                     <img src="data/obrazky/chickendead.gif" alt="hurry up!"/>
-                    <p>Najděte je a spočtěte kolik kuřat padne za Zemi v prvním kole :O.</p>
+                    <p>Jestli prý někdo uhádne, kdo takovou šílenost napsal, může si sbalit a má zbytek hodiny volno. To musím zkusit</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Hledej líp, najdeš, spoléhám na tebe. Myslím, že bude dobré najít nějaký pojízdný grill!<br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="čekám ... jde o život kuřat!"/>
+                        V tak šíleném textu se jistě najde něco, co bude ještě divnější. Něco, co vždycky brnkne do oka.<br/>
+                        <img src="data/obrazky/chicken_waiting.gif" alt="waiting"/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Takže to máme %1 kuřátka. Stateční bojovníci v prní linii. Čest jim!
+                        Takže za to může pan Lewis %1. Copak na světě už nikdo normální není?! Cukr vede 2:0.
                     </ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="5" nadpis="5. úkol" uroven="5" body="10" reseni_A="TIME" reseni_B="0" dalsiukolid="6" audio="">
+        <ukol id="5" nadpis="5. Matika" uroven="5" body="10" reseni_A="PYTHAGORAS" reseni_B="0" dalsiukolid="7" audio="">
             <ukol_telo>
                 <ukol_zadani>
-                    <p>Jaká to hanebnost. Najděte černou velící aštarovu skříňku, která má jedno oko kovové.<br/>
-                        K němu jsou připojena další 3 oči. Díky tomu vidí Aštar téměř do každého bytu!!!<br/>
-                        Dejte si dobrý pozor, když budete jeho 3 oči obdivovat.</p>
-                        <p>Co mi ten kód jenom připomíná?<br/>
-                        <b>A2,B2,C2,B3,B4,B5,B6</b> no to bude nejspíš Excel. Určitě je Bill Gates s nimi! To je jasné.<br/>
-                        kód pokračuje: <b>E2,E3,E4,E5,E6,G2,G3,G4,G5,G6,K2,K3,K4,K5,K6,M2,M3,M4,M5,M6</b> a ještě<br/>
-                        <b>H3,I4,J3,N6,O6,P6,N4,O4,P4,N2,O2,P2</b></p>
-                        <p>Už vím, co to je! Pokud netušíte, lízněte si nápovědu.</p>
+                    <p>Beru zpět to s cukrem. Byla porada a byla tam i matikářka.
+                       Poslední hodina, naštěstí odpadla informatika a nebudou mě mučit s kódováním a šifrováním!
+                       Už mám nohu napůl ze dveří a ... Čekej!!! Co je tohle <br/>
+                        Právě mi hlavou problesklo, že se dneska ze školy asi nedostanu. Ze třídy totiž může odejít jen ten, kdo vyřeší matematický úkol: <br/>
+                        <img src="data/obrazky/5MATIKA.png" alt="mat"/>
+                        <p>Prý je to někdo, na koho do smrti nezapomeneme. Vzpomněl jsem si na školníka, jak mě honil tudle po chodbě. Žeby?</p>
                 </ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Hrál jsi někdy lodě a víš co je to Excel? Zkus všechny lodě potopit. <br/>
-                        <img src="data/obrazky/chicken_waiting.gif" alt="ukol6.11.1"/>
+                        Paní učitelka z matematiky učí i informatiku. Nápadně to něco připomíná. Co tak otevřít sešit z informatiky?<br/>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Propána, nezbývá nám vůbec žádný %1. Musíme si pohnout.
+                        Jo, přesně tak, byl to %1. Hádám, že mě bude pronásledovat po zbytek života. Rychle ke dveřím!!!
                     </ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="6" nadpis="6. úkol" uroven="5" body="10" reseni_A="CHICKEN" reseni_B="0" dalsiukolid="7" audio="">
+        <!-- <ukol id="6" nadpis="6. úkol" uroven="5" body="10" reseni_A="CHICKEN" reseni_B="0" dalsiukolid="7" audio="">
             <ukol_telo>
                 <ukol_zadani>Rychle seberte jeho skříňku s CHIPY na ovládnutí planety a utíkejte do TIME MACHINE!<br/>
                     Najděte ji, čas běží! Musíte se tam vtěsnat všichni. Zavřít za sebou poklop.<br/>
@@ -176,17 +183,24 @@
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
-        </ukol>
-        <ukol id="7" nadpis="FINALE" uroven="5" body="10" reseni_A="" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
+        </ukol> -->
+        <ukol id="7" nadpis="FINÁLEEEEE JDU DOM" uroven="5" body="10" reseni_A="" reseni_B="0" dalsiukolid="1" audio="poutnici_finale_funfunfun.mp3">
             <ukol_telo>
-                <ukol_zadani><p>Jste miloučcí a heboučcí a zasloužíte milion objetí a pusinek od Aštara Šerana !!!<br/>
-                    Ale Fuj, co to kecám. Jste drsná parta Poutníků, která dokáže zachránit planetu ... a taky trochu kuřat!</p>
-                    <img src="data/obrazky/happySC.jpg" alt="ukazovatko"/>
-                    <p>co víc si přát???? </p>
-                    <img src="data/obrazky/flying-pig-chicken-life.gif" alt="jizda"/>
+                <ukol_zadani><p>Ve škole jsem si zapomněl svačinu, láhev s pitím. Jednu přezůvku jsem ztratil hned za dveřmi.
+                    Ale to je jedno. Škola je šílenéééééé místo. Běžím po chodbě a směrem k hlavním dveřím zrychluji.</p></br>
+                    To neeeeeeeeeeee! Školník, nechytí mě. Teď už žádné dotazy a testy. Jenže on má mobil!!!!
+                    <p>CVAK CVAK CVAK</p></br>
+                    Jsem volný! Vzduch, obloha ... cin cink ... co to? zvoní mi mobil? Nepřijatá zpráva.
+                    Zvedni ho kliknutím na nápovědu...
                 </ukol_zadani>
+                 <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        <p>Zítra se jde do školy znovaaaaaaaaaaaaaaaaa!!!!!</p>
+                        <img src="data/obrazky/flying-pig-chicken-life.gif" alt="FINALE"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
                 <ukol_odpoved>
-                    <ukol_odpoved_zaka> Již žádné odpovědi ... jen sladká pomsta Aštara Šerana visí ve vzduchu ...</ukol_odpoved_zaka>
+                    <ukol_odpoved_zaka> Dnes již žádné odpovědi!</ukol_odpoved_zaka>
                     <ukol_reseni></ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>

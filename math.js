@@ -14,7 +14,7 @@ function mzluListening(){
 
 // for MZLU
 function dejHTMLData(inHTMLFile) {
-  debugger;
+  // debugger;
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -44,7 +44,7 @@ function SetMyGpsAcc() {
 
 function inTargitArea(targit_la,targit_lo,act_la,act_lo){
   // nastav přesnost, set accuracy // 0.00001 should be +- 1 meter //0.00033;
-  debugger;
+  // debugger;
   var myacc = parseFloat(document.getElementById("myGpsAcc").value);
   if (myacc != 0) {
     myacc = 0.00001 + (myacc/100000); 
@@ -68,7 +68,7 @@ function showPosition(position) {
   // accuracy 
   var acc = position.coords.accuracy; 
 
-  debugger;
+  //debugger;
   possition.innerHTML="Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
   // 49.18956640068099, 16.537644412888962
@@ -114,6 +114,7 @@ function playSound(inFile) {
 }
 
 function tryToGoToNextStage(inTestValue,inSolution,next_task_id) {
+  debugger;
   if (inTestValue == inSolution) {
     hideAllElementsByClassName("task_container");
     var elm = document.getElementById(next_task_id);
@@ -205,8 +206,9 @@ function nactiUkoly(xmlText, inElementId) {
               txt += "</section>";
           }
 
+          
           // element odpovědi a řešení 
-          debugger
+          debugger;
           txt += "<section class=\"task_answer\" task_id=\""+ x[i].getAttribute("id") + "\" task_points=\"" + x[i].getAttribute("body") + "\" next_task_id=\"" + x[i].getAttribute("dalsiukolid") + "\" task_answer1=\"" + x[i].getAttribute("reseni_A") + "\">";
           
           // příklad Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.

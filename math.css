@@ -24,7 +24,7 @@ main, header, section, aside, footer {
     display: flex;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: #03a9f4;  
+    background:  #dfb323;  
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
@@ -33,7 +33,7 @@ main, header, section, aside, footer {
 .task_header_desc
 {
     flex: 10;
-    background: green;
+    background:  #dfb323;
     border-top-left-radius: 10px;
     text-align: left;  
 }
@@ -60,7 +60,7 @@ main, header, section, aside, footer {
 .task_description
 {
     flex: 1;
-    background: #d22b1f;
+    background: #f1e5ba;
 }
 
 .task_help
