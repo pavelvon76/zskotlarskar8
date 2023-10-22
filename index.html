@@ -1,20 +1,20 @@
 <html lang="cs-CZ">
     <head>
         <meta charset="UTF-8">
-        <title>Moje stránka</title>
+        <title>ZS Kotlářská Code Game</title>
         <link rel=stylesheet href="math.css"> <!-- css slouží k formátování-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- základ responzivního webu-->
         <script src="math.js"></script> <!-- js slouží k uložení fcí javascriptu-->
     </head>
     <body>
         <main>
-            <section class="hlavicka" onclick="playSound('poutnici_DespicableMe.mp3');getLocation();">
-                <b>Pavelvon Games presents</b> 
+            <section class="hlavicka">
+                <b>pavelvon presents</b> 
             </section>
 
             <section class="rocniky">
-                <div class="rocnikitem" onclick="nactiXMLUkolyData('data/ukoly.poutnici1.xml','obsah');">Poutníci I. - SAVE THE BRAVE</div> 
-                <div class="rocnikitem" onclick="tryToGoToNextStage('START','START','1');"><b>START !</b></div> 
+                <div class="rocnikitem" onclick="nactiXMLUkolyData('data/ukoly.poutnici1.xml','obsah');">SAVE THE SCHOOOL (<b>NAČÍST ÚKOLY!</b>)</div> 
+                <div class="rocnikitem" onclick="tryToGoToNextStage('START','START','1');"><b>ZAČÍT LUŠTIT!</b></div> 
             </section>
 
             <div class="flex_blok"> 
@@ -29,9 +29,11 @@
 
             <section class="paticka">
                 <div class="patickaitem"><b>hostováno na GitHubu za hubičku</b></div>
-                <div class="patickaitem">aktualizace @2022</div>
-                <div class="patickaitem" id="myGpsAcc_"><input type="range" min="1" max="100" value="50" class="slider" oninput="SetMyGpsAcc();" id="myGpsAcc"><br/><span id="myGpsAccValue">50</span></div>
-                <div class="patickaitem" id="possition"></div>
+                <div class="patickaitem">aktualizace @2023</div>
+                <!--
+                    <div class="patickaitem" id="myGpsAcc_"><input type="range" min="1" max="100" value="50" class="slider" oninput="SetMyGpsAcc();" id="myGpsAcc"><br/><span id="myGpsAccValue">50</span></div>     
+                    <div class="patickaitem" id="possition"></div>
+                -->
             </section>
         </main>
     </body>

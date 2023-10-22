@@ -2,7 +2,7 @@ main, header, section, aside, footer {
     margin: 0;
     padding: 5px;
     border: 1px solid #000000;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -110,7 +110,7 @@ main {
 }
 
 .rocniky {
-    background: #d22b1f;
+    background: #dfb323;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -127,7 +127,7 @@ main {
 }
 
 .obsah {
-    background: #129a22;
+    background: #d9dd93;
 
     /* responsive section */
     flex: 1;
