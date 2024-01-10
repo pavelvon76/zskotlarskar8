@@ -34,5 +34,9 @@ img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
         max-width: fit-content;
         width:auto;
+    };
+    #webtoon-container {
+        background-color: azure;
     }
+
 }
