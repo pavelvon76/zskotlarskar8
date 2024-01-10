@@ -30,14 +30,14 @@ img {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     #webtoon-container {
         background-color: red;
     }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
+        width: 650px;
         resize:horizontal;
-        width: 800px;
         height:auto;
     }
 
