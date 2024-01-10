@@ -30,14 +30,21 @@ img {
 
 
 @media screen and (max-width: 1024px) {
+    #webtoon-container {
+        width:auto;
+        height:auto;
+        overflow:scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Zarovná obrázky na střed */
+        justify-content: center; /* Zarovná obrázky také na střed ve vertikálním směru */
+        text-align: center; /* Center obrázky pro starší prohlížeče */
+        background-color: red;
+    }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
-        max-width: fit-content;
         width: 800px;
-    }
-    #webtoon-container {
-        background-color:red;
-        width: max-content;
+        height: auto;
     }
 
 }
