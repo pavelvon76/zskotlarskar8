@@ -7,7 +7,7 @@ body {
 }
 
 #webtoon-container {
-    width:inherit;
+    width: inherit;
     height: auto;
     overflow: scroll;
     display: flex;
