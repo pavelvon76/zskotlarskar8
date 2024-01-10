@@ -21,7 +21,7 @@ img {
     display: block;
     margin: 0 auto; /* Upustíme od mezery mezi obrázky */
     max-width: 1024px;
-    width:fit-content;
+    width: 400px;;
     height: auto;
     border-radius: 0px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
