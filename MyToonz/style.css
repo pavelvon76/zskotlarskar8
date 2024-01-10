@@ -28,10 +28,28 @@ img {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 800px) {
+    #webtoon-container {
+        width:auto;
+        height:auto;
+        overflow:scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Zarovná obrázky na střed */
+        justify-content: center; /* Zarovná obrázky také na střed ve vertikálním směru */
+        text-align: center; /* Center obrázky pro starší prohlížeče */
+        background-color: greenyellow;
+    }
+    img {
+        margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
+        width: 600px;
+        height: auto;
+    }
+
 
 @media screen and (max-width: 1024px) {
     #webtoon-container {
-        width:auto;
+        width:95pc;
         height:auto;
         overflow:scroll;
         display: flex;
