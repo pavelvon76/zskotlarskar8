@@ -4,7 +4,7 @@ const webtoonContainer = document.getElementById('webtoon-container');
 const images = [
     'image1.jpg',
     'image2.jpg',
-    'image3.jpg',
+    'image3.jpg'
     // ... další obrázky
 ];
 

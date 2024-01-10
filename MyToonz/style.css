@@ -6,7 +6,7 @@ body {
 }
 
 #webtoon-container {
-    height: 100vh;
+    height: 800px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -19,20 +19,16 @@ img {
     display: block;
     margin: 0 auto; /* Upustíme od mezery mezi obrázky */
     max-width: 800px;
-    width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
 
 @media screen and (max-width: 800px) {
     img {
-        margin-bottom: 16px; /* Přidáme spodní mezery pro responsivní zobrazení */
+        margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
     }
 }
