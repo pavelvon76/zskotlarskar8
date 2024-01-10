@@ -7,8 +7,9 @@ body {
 }
 
 #webtoon-container {
-    height:auto;
-    overflow:scroll;
+    width: inherit;
+    height: auto;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     align-items: center; /* Zarovná obrázky na střed */
