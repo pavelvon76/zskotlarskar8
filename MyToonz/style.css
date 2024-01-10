@@ -49,7 +49,7 @@ img {
 
 @media screen and (max-width: 1024px) {
     #webtoon-container {
-        width:95pc;
+        width:auto;
         height:auto;
         overflow:scroll;
         display: flex;
@@ -61,7 +61,7 @@ img {
     }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
-        width: 800px;
+        width:fit-content;
         height: auto;
     }
 
