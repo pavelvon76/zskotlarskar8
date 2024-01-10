@@ -33,7 +33,7 @@ img {
 @media screen and (max-width: 1024px) {
     #webtoon-container {
         background-color: red;
-        width: min-content;
+        width: 400px;
     }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
