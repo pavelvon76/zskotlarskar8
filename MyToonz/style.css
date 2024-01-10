@@ -7,7 +7,7 @@ body {
 }
 
 #webtoon-container {
-    height:max-content;
+    height:auto;
     overflow:visible;
     display: flex;
     flex-direction: column;
