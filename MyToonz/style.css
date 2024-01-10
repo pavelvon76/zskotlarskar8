@@ -16,8 +16,7 @@ body {
     justify-content: center; /* Zarovná obrázky také na střed ve vertikálním směru */
     text-align: center; /* Center obrázky pro starší prohlížeče */
     background-color: rgb(234, 238, 244);
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 
 img {
