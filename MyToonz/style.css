@@ -17,7 +17,7 @@ body {
     justify-content: center; /* Zarovná obrázky také na střed ve vertikálním směru */
     text-align: center; /* Center obrázky pro starší prohlížeče */
     background-color: rgb(234, 238, 244);
-    margin: 5px;
+    margin: 0px;
 }
 
 img {
@@ -33,11 +33,11 @@ img {
 
 @media screen and (max-width: 820px) {
     #webtoon-container {
-        background-color: blue;
+        background-color: pink;
     }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
-        width: 95%;
+        width: 100%;
         resize:horizontal;
         height:auto;
     }
