@@ -29,7 +29,7 @@ img {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
         max-width: fit-content;
