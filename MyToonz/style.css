@@ -4,6 +4,7 @@ body {
     overflow: auto;
     font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif, sans-serif;
     font-size: 45px;
+    width: 100%;
 }
 
 #webtoon-container {
@@ -36,7 +37,7 @@ img {
     }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
-        width:inherit;
+        width: 100%;
         resize:horizontal;
         height:auto;
     }
