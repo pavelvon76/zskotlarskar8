@@ -35,7 +35,7 @@ img {
     }
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
-        width: 800px;
+        width: 400px;
         resize:horizontal;
         height:auto;
     }
