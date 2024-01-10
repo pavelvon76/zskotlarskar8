@@ -49,7 +49,7 @@ img {
 
 @media screen and (max-width: 1024px) {
     #webtoon-container {
-        width:max-content;
+        width:inherit;
         height:auto;
         overflow:scroll;
         display: flex;
