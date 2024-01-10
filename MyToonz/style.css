@@ -20,7 +20,7 @@ body {
 img {
     display: block;
     margin: 0 auto; /* Upustíme od mezery mezi obrázky */
-    max-width:max-content;
+    max-width:1024px;
     width:auto;
     height: auto;
     border-radius: 0px;
@@ -32,5 +32,7 @@ img {
 @media screen and (max-width: 800px) {
     img {
         margin-bottom: 0px; /* Přidáme spodní mezery pro responsivní zobrazení */
+        max-width: fit-content;
+        width:auto;
     }
 }
